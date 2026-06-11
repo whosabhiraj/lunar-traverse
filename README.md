@@ -44,7 +44,7 @@ LROC NAC ──▶ Crater Detection (Hough Transform) ────────�
 
 | Dataset | Instrument | Resolution | Purpose |
 |---------|-----------|------------|---------|
-| LOLA DEM | LRO / LOLA | ~5 m/px (south pole) | Primary elevation model |
+| LOLA DEM | LRO / LOLA | ~20 m/px (south pole) | Primary elevation model |
 | LROC NAC | LRO / LROC | 0.5 m/px | Crater detection + CNN training imagery |
 
 All data is freely available from [NASA PDS](https://pds.nasa.gov/).
