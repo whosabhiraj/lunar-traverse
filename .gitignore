@@ -1,6 +1,6 @@
 .venv/
-data/           # large data files, don't commit
-models/         # trained model weights
+data/
+models/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
