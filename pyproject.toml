@@ -1,0 +1,37 @@
+[project]
+name = "lunar-traverse"
+version = "0.1.0"
+description = "Safe rover path planning for the lunar south pole using NASA LRO data"
+requires-python = ">=3.11"
+dependencies = [
+    "rasterio",
+    "pyproj",
+    "numpy",
+    "scipy",
+    "scikit-image",
+    "matplotlib",
+    "opencv-python-headless",
+    "pillow",
+    "torch",
+    "torchvision",
+    "plotly",
+    "fastapi",
+    "uvicorn[standard]",
+    "pyyaml",
+    "requests",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter",
+    "pytest",
+    "pytest-cov",
+    "black",
+    "ruff",
+    "mypy",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
